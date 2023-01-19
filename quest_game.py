@@ -2,9 +2,6 @@
 ### story game ###
 
 # Initial situation
-print("""
-in empty cave
-(LOOK/SHOUT/MOVE)""")
 
 
 # level 1
@@ -35,7 +32,7 @@ in empty cave
 print("level 2")
 level2_done = False
 while level2_done == False:
-    print("u entered another cave and saw a dwarf who diging a gold. He also saw u and aks: Are you a thief, you want my gold?! (Y/N)")
+    print("u entered another cave and saw a dwarf who diging for gold. He also saw u and aks: Are you a thief, you want my gold?! (Y/N)")
     choice = input("")
     if choice == "Y":
         print("then fight to me! (Rock-Paper-Scissors starts)")
